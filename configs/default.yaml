@@ -1,0 +1,17 @@
+video_path: data/sample_traffic_video.mp4
+camera_fps: 15
+lanes:
+  - [[50,50],[150,50],[150,200],[50,200]]
+  - [[200,50],[300,50],[300,200],[200,200]]
+scheduler:
+  min_green_s: 8
+  max_green_s: 45
+  alpha_green_age: 0.05
+  fairness_wait_s: 20
+  switch_margin: 0.5
+visual:
+  show: true
+  window: "Traffic AI System"
+output:
+  save_video: true
+  path: artifacts/output_overlay.mp4

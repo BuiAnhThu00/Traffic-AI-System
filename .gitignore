@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.vscode/
+.env
+.venv
+artifacts/
+!data/sample_traffic_video.mp4
